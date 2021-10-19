@@ -1,0 +1,68 @@
+.formCalculator {
+    width: 90%;
+    border: 1px solid black;
+    min-height: 70vh;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.formCalculator__title {
+    font-size: 35px;
+    margin-top: 40px;
+    color: rgb(116, 116, 116);
+}
+
+.formCalculator span {
+    margin-left: 20%;
+    line-height: 45px;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.active {
+    max-width: 160px;
+    margin-left: 15px;
+}
+
+
+.age, .weight, .height {
+    width: 4%;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.female {
+    margin-left: 15px;
+}
+
+.btn-calculator {
+    width: 30%;
+    height: 60px;
+    font-size: 18px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.show-result {
+    color: black;
+    background-color: rgb(174, 255, 255);
+    width: 100%;
+    line-height: 150px;
+    font-size: 19px;
+    font-weight: 600;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.error {
+    
+    margin-left: 20px;
+    color: red;
+}
+
+
