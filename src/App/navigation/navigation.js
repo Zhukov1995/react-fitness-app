@@ -5,7 +5,7 @@ import image from './logo.png';
 import { animateScroll as scroll } from "react-scroll";
 
 
-const Navigation = ({ menuActive, setMenuActive, items }) => {
+const Navigation = ({ menuActive, setMenuActive, navItems }) => {
     const body = document.querySelector('body');
     if (menuActive) {
         body.style.overflow = 'hidden';
@@ -15,21 +15,18 @@ const Navigation = ({ menuActive, setMenuActive, items }) => {
         body.style.paddingRight = '0px'
     }
 
-    const goTop = () => {
-        scroll.scrollToTop();
-    }
     return (
         <>
             <nav>
-                <div className='logo' onClick={() => goTop()}>
+                <div className='logo'>
                     <img src={image} className='logo_img' alt='logo' />
-                    <h3 className='logo_title'>Территория здоровья</h3>
+                    <h3 className='logo_title'>территория здоровья</h3>
                 </div>
                 <div className='btn-burger' onClick={() => setMenuActive(!menuActive)} >
                     <span></span>
                 </div>
             </nav>
-            <NavBar active={menuActive} setActive={setMenuActive} header='Меню' items={items} />
+            <NavBar active={menuActive} setActive={setMenuActive} header='Меню' navItems={navItems} />
         </>
     )
 }

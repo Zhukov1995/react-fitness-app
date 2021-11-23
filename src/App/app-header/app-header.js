@@ -3,7 +3,7 @@ import './app-header.css';
 import { animateScroll as scroll } from "react-scroll";
 
 const AppHeader = () => {
-    console.log(scroll)
+    
     const AnimateScroll = () => {
         const body = document.querySelector('body');
         if (body.style.overflow !== 'hidden') {

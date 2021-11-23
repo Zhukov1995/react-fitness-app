@@ -1,0 +1,63 @@
+.navBarDiet {
+    background-color: rgb(234, 250, 227);
+}
+
+.titleDiet {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 40px;
+    font-size: 35px;
+    margin-bottom: 60px;
+}
+
+.imgDietTitle {
+    width: 450px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.diet-description {
+    width: 60%;
+    font-size: 17px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.diet-description:last-child {
+    margin-bottom: 100px;
+}
+
+.diet-title {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.img-diet {
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+.diet-list {
+    list-style: none;
+    width: 50%;
+    padding: 0;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.diet-list li {
+    display: block;
+    background-color: rgb(210, 245, 207);
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 30px;
+    border: 1px solid rgb(60, 238, 25);
+}
+

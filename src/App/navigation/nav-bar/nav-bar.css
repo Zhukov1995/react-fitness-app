@@ -26,16 +26,17 @@
 .nav-bar-content {
     width: 20%;
     height: 100%;
-    background-color: rgba(228, 228, 228, 0.945);
+    background: linear-gradient(rgb(179, 224, 170),rgb(241, 240, 240));
+    margin-top: 0;
     float: right;
 }
 
 .nav-bar-header {
     font-size: 25px;
-    color: gray;
     border-bottom: 1px solid gray;
     width: 100%;
     text-align: center;
+    padding: 15px;
 }
 
 
@@ -62,9 +63,8 @@
 
 .nav-bar-list a:hover {
     font-size: 21px;
-    color: white;
     border-radius: 5px;
-    background-color: rgba(173, 173, 173, 0.651);
+    background-color: rgb(74, 247, 31);
 }
 
 

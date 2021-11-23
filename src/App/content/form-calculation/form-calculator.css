@@ -1,15 +1,18 @@
 .formCalculator {
     width: 90%;
-    border: 1px solid black;
     min-height: 70vh;
     margin: 0 auto;
     margin-top: 100px;
+    padding-top: 20px;
+    background-color: rgb(234, 250, 227);
+    border: 1px solid black;
+    border-radius: 15px
 }
 
 .formCalculator__title {
     font-size: 35px;
     margin-top: 40px;
-    color: rgb(116, 116, 116);
+    text-align: center;
 }
 
 .formCalculator span {
@@ -49,7 +52,7 @@
 
 .show-result {
     color: black;
-    background-color: rgb(174, 255, 255);
+    background: linear-gradient(rgb(177, 177, 176),rgb(235, 187, 187));
     width: 100%;
     line-height: 150px;
     font-size: 19px;
@@ -57,6 +60,8 @@
     margin: 0 auto;
     margin-top: 50px;
     text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .error {

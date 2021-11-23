@@ -3,7 +3,7 @@ import './nav-bar.css';
 import shortid from 'shortid';
 
 
-const NavBar = ({header,items,active,setActive}) => {
+const NavBar = ({header,navItems,active,setActive}) => {
 
 
     return (
@@ -12,13 +12,12 @@ const NavBar = ({header,items,active,setActive}) => {
                 <div className = 'nav-bar-content' >
                     <div className = 'nav-bar-header'>{header}</div>
                     <ul className = 'nav-bar-list'>
-                        {items.map(items => 
+                        {navItems.map(items => 
                             <li key = {shortid.generate()}>
-                                <a href = {items.href}>{items.value}</a>
+                                <a href= {items.href}>{items.value}</a>
                             </li>    
                         )}
                     </ul>
-                    <p>Регистрирусь на данном сервисе,вам открывается возможность хранить историю своих расчетов ,а так же вы можете получать индивидуальные советы.</p>
                 </div>
             </div>
         </div>

@@ -4,7 +4,7 @@ import './recomendation.css';
 const Recomendation = () => {
      return (
           <>
-               <h2>Рекомендации по питанию</h2>
+               <h2 className='titleRecomendation'>Рекомендации по питанию</h2>
                <ul className='recomendation'>
                     <li>
                          Качество, количество и кратность питания должно быть
